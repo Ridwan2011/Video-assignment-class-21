@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video assignment class-21</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./spinner.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <style>
+        .captain-ribbin::after{
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 53px solid transparent;
+            border-right: 53px solid transparent;
+            border-top: 10px solid #2c8f9f;
+        }
+
+        .captain-ribbin span::before{
+            position: absolute;
+            content: "";
+            height: 6px;
+            width: 6px;
+            left: -6px;
+            top: 0;
+            background: #2c8f9f;
+        }        
+
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <div class="header-section">
+
+            <div class="container-fluid">
+
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #43cda2;">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="spinner.html"><img src="./ezgif-3-db99e0288d75.png" height="40px" alt=""></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="spinner.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="spinner.html">Banner</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Web links
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="spinner.html">Lfwf Academy</a></li>
+                              <li><a class="dropdown-item" href="spinner.html">Facebook groups</a></li>
+                              <li><a class="dropdown-item" href="spinner.html">Youtube-channel</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <a href="spinner.html" class="btn btn-outline-primary text-light" type="submit">Search</a>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <section>
+
+        <div class="banner-section">
+
+            <div class="container-fluid">
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./1.jpg" class="d-block w-100" height="550px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./1.jpg" class="d-block w-100" height="550px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./1.jpg" class="d-block w-100" height="550px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <section>
+
+            <div class="container-fluid">
+
+                <h1 class="text-center text-danger mt-5" style="font-family: 'Alumni Sans', sans-serif; font-size: 70px;">Your problem</h1>
+
+                <div class="container"><div class="progress-section mb-5">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+
+                            <div class="progress mt-5 mb-2">
+                                <div class="progress-bar progress-bar-striped " role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="progress mb-2">
+                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="progress mb-2">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="progress mb-2">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="progress mb-2">
+                                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                    </div>
+
+
+                    <div class="col-lg-4">
+
+                        <div class="alert alert-warning alert-dismissible fade show mt-5" style="width: 400px;" role="alert">
+                            <strong>Sorry! </strong> Your windows can be crashed. To avoid it click the button!
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+
+                                            <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Window crash avoider
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Sorry!!!!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                Your windows have been crashed! But, you can download new windows 10!
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <a href="https://go.microsoft.com/fwlink/?LinkId=691209" type="button" class="btn btn-primary">Download</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <button type="button" class="btn btn-primary" id="liveToastBtn" style="position: relative;left: 217px;bottom: 39px;">Get your notification</button>
+
+                        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                            <strong class="me-auto">Sorry!!!</strong>
+                            <small>Just now</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                            Downloding a new window was a bad idea
+                            </div>
+                        </div>
+                        </div>
+
+                        
+
+                    </div>
+
+
+                    
+                    <div class="col-lg-4">
+
+                        <table class="table table-bordered table-dark table-hover mt-5" style="width: 260px;position: relative;left: 45px;">
+                        <thead>
+                            <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Roll</th>
+                            <th scope="col">Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">Ridwan</th>
+                            <td>2</td>
+                            <td>01716885023</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Rafi</th>
+                            <td>3</td>
+                            <td>01716885023</td>
+                            </tr>
+                        </tbody>
+                        </table>
+
+                    </div>
+
+                </div></div>
+
+            </div>
+
+        </section>
+
+
+
+        <section>
+
+            <div class="container-fluid">
+
+                <h1 class="text-center text-success mb-5" style="font-family: 'Alumni Sans', sans-serif; font-size: 70px;"><div class="text-primary">Batch-18</div> Top 20 students</h1>
+
+                <table class="table table-bordered table-responsive table-condensed">
+                  <thead>
+
+                    <tr>
+                      <th style="position: relative;bottom: 14px;left: 15px;" scope="col">Position</th>
+                      <th style="position: relative;bottom: 14px;text-align: center;" scope="col">Student name</th>
+                      <th style="position: relative;bottom: 14px;text-align: center;" scope="col">Image</th>
+                      <th style="position: relative;left: px; text-align: center;" scope="col">Total Reviwed assignments</th>
+                      <th style="position: relative;bottom: 14px;text-align: center;" scope="col">Gained score</th>
+                    </tr>
+
+                  </thead>
+                  <tbody>
+
+                    <tr>
+                      <th scope="row" style="width: 130px;">1</th>
+                      <td style="width: 490px;position: relative;top: 25px;">Rakib Hossen</td>
+                      <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625458083.png" alt=""></td>
+                      <td style="width: 165px;">18</td>
+                      <td style="width: 240px;">96.44</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td style="width: 490px;position: relative;top: 25px;">Tanjil Bhuiya</td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625459718.png" alt=""></td>
+                        <td>27</td>
+                        <td>96.12</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">3 </th>
+                        <td style="width: 490px;position: relative;top: 25px;">Md Habib </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625446787.png" alt=""></td>
+                        <td>25</td>
+                        <td>96.11</td>
+                      </tr>
+
+
+                      <tr>
+                        <th scope="row">4 </th>
+                        <td style="width: 490px;position: relative;top: 25px;">Harun or Rashid </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1631281608.png" alt=""></td>
+                        <td>0</td>
+                        <td>96.03</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">5</th>
+                        <td style="width: 490px;position: relative;top: 25px;">Mou </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1629035122.png" alt=""></td>
+                        <td>36</td>
+                        <td>95.97</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">6 </th>
+                        <td style="width: 490px;position: relative;top: 25px;">AKBAR SADIQ </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625475154.png" alt=""></td>
+                        <td>3</td>
+                        <td>95.23</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">7</th>
+                        <td style="width: 490px;position: relative;top: 25px;">Mostofa Shakran </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625501241.png" alt=""></td>
+                        <td>3</td>
+                        <td>94.93</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">8</th>
+                        <td style="width: 490px;position: relative;top: 25px;">Mehedi Hasan Bappy <span class="captain-ribbin" style="position: absolute;top: -32.1px;right: 10px;" ><span style="position: relative;display: block;text-align: center;background: #2c8f9f;font-size: 14px;line-height: 1;padding: 14px 8px 10px;border-top-right-radius: 8px;width: 115px; color: #fff;">Class Captain</span></span></td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625568815.png" alt=""></td>
+                        <td>39</td>
+                        <td>94.58</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">9</th>
+                        <td style="width: 490px;position: relative;top: 25px;">Md. Akramul Islam </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625434667.png" alt=""></td>
+                        <td>8</td>
+                        <td>94.26</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">10</th>
+                        <td style="width: 490px;position: relative;top: 25px;">K A I U M </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1628917430.png" alt=""></td>
+                        <td>11</td>
+                        <td>94.26</td>
+                      </tr>
+
+
+
+                                <!-- ------------------------------------------------------------------------------- -->
+                      <tr>
+                        <th scope="row" style="width: 130px;">11</th>
+                        <td style="width: 490px;position: relative;top: 25px;">sharmin akter </td>
+                        <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1631180001.png" alt=""></td>
+                        <td style="width: 165px;">0</td>
+                        <td style="width: 240px;">92.98</td>
+                      </tr>
+  
+                      <tr>
+                          <th scope="row">12</th>
+                          <td style="width: 490px;position: relative;top: 25px;">Abdur Rahman </td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1628855325.png" alt=""></td>
+                          <td>63</td>
+                          <td>92.68</td>
+                        </tr>
+  
+                        <tr>
+                          <th scope="row">13 </th>
+                          <td style="width: 490px;position: relative;top: 25px;">Tamzid Hosain </td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625924652.png" alt=""></td>
+                          <td>2</td>
+                          <td>92.49</td>
+                        </tr>
+  
+  
+                        <tr>
+                          <th scope="row">14 </th>
+                          <td style="width: 490px;position: relative;top: 25px;">Md Shahadat Mahmud  </td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625452087.png" alt=""></td>
+                          <td>0</td>
+                          <td>96.03</td>
+                        </tr>
+  
+                        <tr>
+                          <th scope="row">15</th>
+                          <td style="width: 490px;position: relative;top: 25px;">sabbir hossan </td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625495727.png" alt=""></td>
+                          <td>36</td>
+                          <td>92.42</td>
+                        </tr>
+  
+                        <tr>
+                          <th scope="row">16 </th>
+                          <td style="width: 490px;position: relative;top: 25px;">Joy Dev Nath </td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625481278.png" alt=""></td>
+                          <td>11</td>
+                          <td>92.01</td>
+                        </tr>
+  
+                        <tr>
+                          <th scope="row">17</th>
+                          <td style="width: 490px;position: relative;top: 25px;">BM Ashik</td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1628920613.png" alt=""></td>
+                          <td>13</td>
+                          <td>91.66</td>
+                        </tr>
+  
+                        <tr>
+                          <th scope="row">18</th>
+                          <td style="width: 490px;position: relative;top: 25px;">Asraful Islam </td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625449793.png" alt=""></td>
+                          <td>1</td>
+                          <td>91.50</td>
+                        </tr>
+  
+                        <tr>
+                          <th scope="row">19</th>
+                          <td style="width: 490px;position: relative;top: 25px;">Forhad Hossain</td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1625448734.png" alt=""></td>
+                          <td>0</td>
+                          <td>90.47</td>
+                        </tr>
+  
+                        <tr>
+                          <th scope="row">20</th>
+                          <td style="width: 490px;position: relative;top: 25px;">Md Rifat Chowdhury</td>
+                          <td><img style="position: relative;left: 100px;" src="https://lfwf.io/uploads/studentProfile/thumb/1629902839.png" alt=""></td>
+                          <td>0</td>
+                          <td>90.32</td>
+                        </tr>
+
+
+                  </tbody>
+                </table>
+
+            </div>
+
+        </section>
+
+
+
+        <footer>
+
+            <div class="footer bg-dark pt-3 pb-1 mt-5">
+
+                <p class="text-light text-center ">&copy; All rights reserved by LFWF Academy</p>
+
+            </div>
+
+        </footer>
+
+
+
+    <script>var toastTrigger = document.getElementById('liveToastBtn')
+        var toastLiveExample = document.getElementById('liveToast')
+        if (toastTrigger) {
+          toastTrigger.addEventListener('click', function () {
+            var toast = new bootstrap.Toast(toastLiveExample)
+        
+            toast.show()
+          })
+        }
+        </script>
+</body>
+</html>
